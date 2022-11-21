@@ -1,0 +1,14 @@
+# Terraform
+.terraform
+.terraform.lock.hcl
+
+*.tfstate
+*.tfstate.backup
+
+# Terragrunt
+.terragrunt-cache
+
+# Genarated files by Terraform
+backend.tf
+variables.tf
+provider.tf
